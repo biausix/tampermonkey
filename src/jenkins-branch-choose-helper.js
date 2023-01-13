@@ -1,17 +1,15 @@
 // ==UserScript==
 // @name         Jenkins分支选择助手
 // @namespace    http://tampermonkey.net/
-// @version      0.0.2
-// @description  Jenkins分支选择助手
+// @version      0.0.1
+// @license      Apache-2.0
+// @description  Jenkins构建时分支选择优化
 // @author       liubiao
-
 // @include      *://*/job/*/build*
-
 // @icon         http://jenkins-staging.kzmall.cc/static/64581efe/images/jenkins-header-logo-v2.svg
 // @grant        none
-
-// @updateURL https://raw.githubusercontent.com/biausix/tampermonkey/main/src/jenkins-branch-choose-helper.js
-
+// @updateURL    https://raw.githubusercontent.com/biausix/tampermonkey/main/src/jenkins-branch-choose-helper.js
+// @downloadURL  https://raw.githubusercontent.com/biausix/tampermonkey/main/src/jenkins-branch-choose-helper.js
 // ==/UserScript==
 
 (function() {
