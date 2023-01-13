@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jenkins分支选择助手
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  Jenkins分支选择助手
 // @author       liubiao
 
@@ -9,6 +9,9 @@
 
 // @icon         http://jenkins-staging.kzmall.cc/static/64581efe/images/jenkins-header-logo-v2.svg
 // @grant        none
+
+// @updateURL https://raw.githubusercontent.com/biausix/tampermonkey/main/src/jenkins-branch-choose-helper.js
+
 // ==/UserScript==
 
 (function() {
